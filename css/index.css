@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 html {
     overflow-y: scroll;
     overflow-x: hidden;
@@ -5,6 +9,12 @@ html {
     word-wrap: break-word;
     word-break: break-all;
     
+}
+a:hover,
+a:visited,
+a:active,
+a:link {
+	text-decoration: none;
 }
 body{
     
@@ -17,7 +27,7 @@ header {
     padding-bottom: 20%;
     background: url(../img/banner.jpg) no-repeat center;
     background-size: 100% 100%;
-    color: rgb(218, 218, 218);
+    color: rgb(179, 174, 174);
 }
 .top{
     height: 70px;
@@ -29,4 +39,221 @@ header {
 ul,li{
     list-style: none;
     text-decoration: none;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+
+
+.majors>ul>li{
+    float: left;
+    margin-right: 17px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    /* -webkit-mask : -webkit-gradient(linear, left top, right bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,1))); */
+}
+.majors>ul>li>.text{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%); 
+}
+.text{
+    text-align: center;
+    
+    color: #fff
+}
+.text>P:nth-child(1){
+    font-size: 22px;
+    font-weight: 900;
+}
+.text>p:nth-child(2){
+    font-size: 16px;
+    font-weight: 300;
+}
+.mask{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 3%;
+    width: 100%;
+    height: 100%;
+    background:rgba(0, 0, 0, .5);
+}
+.countries {
+    display: block;
+    text-align: center;
+    padding: 40px 0 50px 0;
+ }
+.countries>li {
+    list-style: none;
+
+    font-size:17px;
+    font-weight: 600;
+    line-height: 37px;
+    /* margin: 12px 0 12px 0; */
+    text-align: center;
+    color: #222222;
+    transition: 0.3s;
+    cursor: pointer;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: inline;
+    border-radius: 2px;
+    padding: 8px 16px 8px 16px;
+    margin-left: 24px;
+}
+li:hover {
+    color: #fff;
+    background-color: rgb(180, 199, 241);
+}
+li:active{
+    background-color: #3477ff;
+    color: #fff
+}
+section{
+    border-top: 1px solid #e5e5e5;
+    background-color: #f8f8f8;
+}
+.assessment{
+    margin-top: 57px;
+    margin-bottom: 156px;
+    position: relative;
+
+}
+.assessment>.ask{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(176%,-50%); 
+    display: block;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 50px;
+    color: #fff;
+    background-color: #ff4393;
+}
+
+
+.toTop {
+    display: block;
+    position: fixed;
+    top: 60%;
+    right: 6rem;
+}
+.leyuu {
+    display: block;
+    position: fixed;
+    top: 30%;
+    right: 3rem;
+}
+
+footer {
+    background: url(../img/footer_bg.jpg) repeat center;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    background-size: cover
+}
+
+.pccss {
+    display: block;
+    margin-top: 4.571429rem;
+    color: #d3d3d3;
+}
+
+.lis {
+    padding: 0 4.285714rem;
+}
+
+.links>span,
+.tuiguang>span {
+    margin: 0.5rem 1rem 0.5rem 0;
+    font-size: 12px;
+}
+
+.weibo {
+    margin-left: 2.571429rem;
+}
+
+.qr {
+    position: relative;
+}
+
+.qrwechat {
+    position: absolute;
+    top: -100px;
+    left: 0;
+}
+
+.qrweibo {
+    position: absolute;
+    top: -100px;
+    left: 86px;
+}
+
+.qrwechat,
+.qrweibo {
+    display: none;
+}
+
+.pccss p {
+    color: #ccc;
+    font-size: 12px;
+}
+
+.pccss .bot_title {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    padding-top: 2rem;
+    opacity: 0.6;
+}
+
+.pccss a {
+    color: #ccc
+}
+
+.pccss .logo {
+    margin-bottom: 2rem;
+    width: 100%;
+    height: 100%
+}
+
+.pccss div {
+    padding: 0 20px;
+}
+
+.pccss .lis:nth-child(2) {
+    border-right: 1px solid rgb(93, 93, 93);
+    border-left: 1px solid rgb(93, 93, 93);
+}
+
+.toTop {
+    display: block;
+    position: fixed;
+    top: 57%;
+    right: 6rem;
+}
+
+.leyuu {
+    display: block;
+    position: fixed;
+    top: 30%;
+    right: 3rem;
+    cursor: pointer
+}
+.container{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
