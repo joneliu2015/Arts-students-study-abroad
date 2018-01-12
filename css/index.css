@@ -8,7 +8,6 @@ html {
     table-layout: fixed;
     word-wrap: break-word;
     word-break: break-all;
-    
 }
 a:hover,
 a:visited,
@@ -87,7 +86,7 @@ ul,li{
 .countries {
     display: block;
     text-align: center;
-    padding: 40px 0 50px 0;
+    padding: 30px 0 30px 0;
  }
 .countries>li {
     list-style: none;
@@ -119,7 +118,7 @@ li:active{
     background-color: #3477ff;
     color: #fff
 }
-section{
+.center{
     border-top: 1px solid #e5e5e5;
     background-color: #f8f8f8;
 }
@@ -256,4 +255,68 @@ footer {
 .container{
     padding-left: 0 !important;
     padding-right: 0 !important;
+}
+/* @-moz-document url-prefix() {
+    fieldset { display: table-cell; }
+  } */
+article{
+    margin-bottom: 24px;
+}
+aside{
+    display: inline-block !important;
+    width: 216px;
+    height: 216px;
+    border-radius: 2px;
+    margin-right: 18px;
+    background:linear-gradient(#ff2155); /* 一些不支持背景渐变的浏览器 */  
+    background:-moz-linear-gradient( #ff2155, #ffacad);  
+    background:-webkit-linear-gradient(#ff2155,#ffacad);  
+    background:-o-linear-gradient( #ff2155, #ffacad); 
+    overflow: hidden
+}
+aside .title{
+    font: bold 24px Microsoft Yahei;
+    color: #fff;
+    margin-left: 24px;
+    margin-top: 24px;
+}
+aside>p{
+    text-align: center;
+    vertical-align: 20%;
+    margin-top: 70px;
+    color: #fff
+}
+
+table{
+    display: inline-block;
+    background-color: #fff !important;
+    border-collapse: separate !important ;
+    width: 930px;
+    height: 218px;
+    border-spacing: 20px 16px !important;
+}
+table,th,td{
+    
+    text-align: left;
+}
+tr>td:nth-child(1){
+    width: 54px;
+    text-align: center;
+    border-radius: 2px;
+    background-color: #f3f3f3;
+    color: #b2b2b2
+}
+tr>th{
+    border-bottom:1px solid #f3f3f3;
+    font: bold 20px Microsoft Yahei;
+}
+tbody>tr>td+td{
+    color: #7f7f7f;
+    vertical-align: top;
+}
+thead>tr>td:nth-child(1){
+    height: 54px;
+}
+tbody>tr>td:nth-child(1){
+    height: 115px;
 }

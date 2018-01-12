@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,17 +13,40 @@
     <title>艺考生留学指南</title>
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./lib/bootstrap-3.3.7-dist/css/bootstrap.css">
+    <!--集团统计开始-->
+    <!--neworiental全站异步 google分析开始-->
+    <script>
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-20005525-1']);
+        _gaq.push(['_setDomainName', '.xdf.cn']);
+        _gaq.push(['_setAllowLinker', true]);
+        _gaq.push(['_setAllowHash', false]);
+        _gaq.push(['_addOrganic', 'baidu', 'word']);
+        _gaq.push(['_addOrganic', '360', 'q']);
+        _gaq.push(['_addOrganic', 'so.com', 'q']);
+        _gaq.push(['_addOrganic', 'soso', 'w']);
+        _gaq.push(['_addOrganic', 'yodao', 'q']);
+        _gaq.push(['_addOrganic', 'sogou', 'query']);
+        _gaq.push(['_addOrganic', 'gougou', 'search']);
+        _gaq.push(['_addOrganic', 'so.360.cn', 'q']);
+        _gaq.push(['_addOrganic', 'haosou', 'q']);
+        _gaq.push(['_setLocalGifPath', 'http://ads.staff.xdf.cn/_.gif']);
+        _gaq.push(['_setLocalRemoteServerMode']);
+        _gaq.push(['_trackPageview']);
+    </script>
+    <!-- google分析结束-->
 </head>
+
 <body>
     <header class="content ">
         <div class="container top">
-                <img class="logo" src="./img/logo.png" alt="陕西新东方前途出国">
-                <span class="copyright">
-                    <span class="glyphicon glyphicon-copyright-mark"></span>
-                    <span>&nbsp;陕西新东方前途出国</span>
-                </span>
+            <img class="logo" src="./img/logo.png" alt="陕西新东方前途出国">
+            <span class="copyright">
+                <span class="glyphicon glyphicon-copyright-mark"></span>
+                <span>&nbsp;陕西新东方前途出国</span>
+            </span>
         </div>
-            
+
     </header>
     <nav class="majors container">
         <ul>
@@ -34,41 +58,41 @@
                 </span>
                 <div class="mask"></div>
             </li>
-            <li >
+            <li>
                 <img src="./img/broadcaster.png" alt="播音编导类">
                 <span class="text">
-                        <p>播音编导类</p>
-                        <p>Broadcaster</p>
-                    </span>
+                    <p>播音编导类</p>
+                    <p>Broadcaster</p>
+                </span>
                 <div class="mask"></div>
             </li>
             <li>
                 <img src="./img/music.png" alt="音乐类">
                 <span class="text">
-                        <p>音乐类</p>
-                        <p>Music</p>
-                    </span>
+                    <p>音乐类</p>
+                    <p>Music</p>
+                </span>
                 <div class="mask"></div>
             </li>
             <li>
                 <img src="./img/dance.png" alt="舞蹈类">
                 <span class="text">
-                        <p>舞蹈类</p>
-                        <p>Dancet</p>
-                    </span>
+                    <p>舞蹈类</p>
+                    <p>Dancet</p>
+                </span>
                 <div class="mask"></div>
             </li>
             <li style="margin-right: 0;">
                 <img src="./img/performance.png" alt="表演类">
                 <span class="text">
-                        <p>表演类</p>
-                        <p>Performance</p>
-                    </span>
+                    <p>表演类</p>
+                    <p>Performance</p>
+                </span>
                 <div class="mask"></div>
             </li>
         </ul>
     </nav>
-    <section >
+    <section class="center" style="overflow:hidden">
         <nav class="container">
             <ul class="countries">
                 <li class="active selected" id="Americia">美国</li>
@@ -80,9 +104,39 @@
                 <li id="Asia">亚洲</li>
             </ul>
         </nav>
-        <aside class="container">
+        <section class="articles">
+
+            <article class="container">
+                <aside class="Professional-direction">
+                    <div class="title">视觉传达<br>艺术</div>
+                    <p>绘画、雕塑、装饰、版画等</p>
+                </aside>
+    
+                <table class="table-responsive table-borded">
+                    <thead>
+                        <tr>
+                            <td>院校<br>推荐</td>
+                            <th>伦敦艺术大学</th>
+                            <th>伯恩茅斯艺术大学</th>
+    
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>录取<br>要求</td>
+                            <td>雅思5.0，单项不低于4.0,<br>高中成绩良好，<br>具体参考作品集，<br>有面试</td>
+                            <td>雅思5.5，单项不低于5.0，<br>高中三年平均成绩65以上</td>
+                        </tr>
+                    </tbody>
+    
+                </table>
+            </article>
+
+        </section>
+        <script id="template" type="text/html">
             
-        </aside>
+        </script>
+
     </section>
     <div class="assessment container">
         <img src="./img/QA_bg1.jpg" alt="">
@@ -92,71 +146,74 @@
         </a>
     </div>
     <footer>
-              <!--返回顶部-->
-              <div class="toTop">
-                <img src="img/toTop.png" alt="返回顶部" />
-            </div>
-            <!--右侧乐语弹窗start-->
-            <div class="leyuu">
-                <a onclick="openWin()">
-                    <img src="./img/kefu.png" alt="乐语">
-                </a>
-            </div>
-            <div class="container">
-                <div class="pccss  row">
-                    <div class="col-md-4 lis">
-                        <img class="logo" src="img/logo2.png" alt="陕西新东方前途出国" />
-                        <p>新东方前途出国咨询有限公司是新东方旗下唯一从事出国留学服务的专职机构。</p>
-                        <p>新东方前途出国咨询有限公司立志于提供专业的国际教育服务，帮助每一位梦想出国的学生实现自己的梦想，打造成专业、权威、诚信的留学服务旗舰品牌。</p>
+        <!--返回顶部-->
+        <div class="toTop">
+            <img src="img/toTop.png" alt="返回顶部" />
+        </div>
+        <!--右侧乐语弹窗start-->
+        <div class="leyuu">
+            <a onclick="openWin()">
+                <img src="./img/kefu.png" alt="乐语">
+            </a>
+        </div>
+        <div class="container">
+            <div class="pccss  row">
+                <div class="col-md-4 lis">
+                    <img class="logo" src="img/logo2.png" alt="陕西新东方前途出国" />
+                    <p>新东方前途出国咨询有限公司是新东方旗下唯一从事出国留学服务的专职机构。</p>
+                    <p>新东方前途出国咨询有限公司立志于提供专业的国际教育服务，帮助每一位梦想出国的学生实现自己的梦想，打造成专业、权威、诚信的留学服务旗舰品牌。</p>
+                </div>
+                <div class="col-md-4 lis ">
+                    <div class="links">
+                        <p class="bot_title" style="padding-top: 0;">友情链接</p>
+                        <span>
+                            <a href="http://www.xdf.cn" target="_blank">新东方官方网站</a>
+                        </span>
+                        <span>
+                            <a href="http://www.koolearn.com" target="_blank">新东方在线</a>
+                        </span>
+                        <span>
+                            <a href="http://liuxue.xdf.cn/xian" target="_blank">新东方前途出国
+                                <br/>
+                            </a>
+                        </span>
+                        <span>
+                            <a href="http://liuxue.xdf.cn/special/branch/xian/application_plan/" target="_blank">考研后留学</a>
+                        </span>
                     </div>
-                    <div class="col-md-4 lis ">
-                        <div class="links">
-                            <p class="bot_title" style="padding-top: 0;">友情链接</p>
-                            <span>
-                                <a href="http://www.xdf.cn" target="_blank">新东方官方网站</a>
-                            </span>
-                            <span>
-                                <a href="http://www.koolearn.com" target="_blank">新东方在线</a>
-                            </span>
-                            <span>
-                                <a href="http://liuxue.xdf.cn/xian" target="_blank">新东方前途出国<br/></a>
-                            </span>
-                            <span>
-                                <a href="http://liuxue.xdf.cn/special/branch/xian/application_plan/" target="_blank">考研后留学</a>
-                            </span>
-                        </div>
-                        <div class="tuiguang">
-                            <p class="bot_title">推广平台</p>
-                            <span>
-                                <a href="http://v.qq.com/vplus/08f47dc35a83e34bcfd603be13eae39a" target="_blank">腾讯视频</a>
-                            </span>
-                            <span>
-                                <a href="https://weibo.com/xianqiantu?refer_flag=1001030101_" target="_blank">新浪微博</a>
-                            </span>
-                            <p>&nbsp;</p>
-                            <p>&nbsp;</p>
-                        </div>
+                    <div class="tuiguang">
+                        <p class="bot_title">推广平台</p>
+                        <span>
+                            <a href="http://v.qq.com/vplus/08f47dc35a83e34bcfd603be13eae39a" target="_blank">腾讯视频</a>
+                        </span>
+                        <span>
+                            <a href="https://weibo.com/xianqiantu?refer_flag=1001030101_" target="_blank">新浪微博</a>
+                        </span>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </div>
-                    <div class="col-md-4 lis">
-                        <div class="qr">
-                            <span class="wechat">
-                                <img src='img/wechat.png' />
-                            </span>
-                            <span class="weibo">
-                                <img src="img/weibo.png" />
-                            </span>
-                            <img class="qrwechat" src="img/qr_wechat.png" alt="" />
-                            <img class="qrweibo" src="img/qr_weibo.png" alt="" />
-                        </div>
-                        <div class="con">
-                            <p class="bot_title" style="opacity: 1;">陕西新东方前途出国</p>
-                            <p class="tel">电话：029-87203365</p>
-                            <p class="adress">地址：西安市高新区林凯国际10层（科技路与高新二路<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;十字东南角）</p>
-                            <p class="copyright1">Copyright © 2017-2018 陕西新东方前途出国</p>
-                        </div>
+                </div>
+                <div class="col-md-4 lis">
+                    <div class="qr">
+                        <span class="wechat">
+                            <img src='img/wechat.png' />
+                        </span>
+                        <span class="weibo">
+                            <img src="img/weibo.png" />
+                        </span>
+                        <img class="qrwechat" src="img/qr_wechat.png" alt="" />
+                        <img class="qrweibo" src="img/qr_weibo.png" alt="" />
+                    </div>
+                    <div class="con">
+                        <p class="bot_title" style="opacity: 1;">陕西新东方前途出国</p>
+                        <p class="tel">电话：029-87203365</p>
+                        <p class="adress">地址：西安市高新区林凯国际10层（科技路与高新二路
+                            <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;十字东南角）</p>
+                        <p class="copyright1">Copyright © 2017-2018 陕西新东方前途出国</p>
                     </div>
                 </div>
             </div>
+        </div>
     </footer>
 
 
@@ -166,4 +223,5 @@
     <script src="./lib/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
     <script src="./lib/template-web.js"></script>
 </body>
+
 </html>
