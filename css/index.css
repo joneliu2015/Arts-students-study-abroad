@@ -1,7 +1,8 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 html {
     overflow-y: scroll;
     overflow-x: hidden;
@@ -9,14 +10,15 @@ html {
     word-wrap: break-word;
     word-break: break-all;
 }
+
 a:hover,
 a:visited,
 a:active,
 a:link {
-	text-decoration: none;
+    text-decoration: none;
 }
-body{
-    
+
+body {
     font-family: Microsoft Yahei !important;
 }
 
@@ -28,26 +30,31 @@ header {
     background-size: 100% 100%;
     color: rgb(179, 174, 174);
 }
-.top{
+
+.top {
     height: 70px;
     line-height: 70px;
 }
-.copyright{
+
+.copyright {
     float: right;
 }
-ul,li{
+
+ul,
+li {
     list-style: none;
     text-decoration: none;
 }
-.fl{
+
+.fl {
     float: left;
 }
-.fr{
+
+.fr {
     float: right;
 }
 
-
-.majors>ul>li{
+.majors>ul>li {
     float: left;
     margin-right: 17px;
     margin-top: 30px;
@@ -55,43 +62,48 @@ ul,li{
     position: relative;
     /* -webkit-mask : -webkit-gradient(linear, left top, right bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,1))); */
 }
-.majors>ul>li>.text{
-    position:absolute;
-    left:50%;
-    top:50%;
-    transform: translate(-50%,-50%); 
+
+.majors>ul>li>.text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
-.text{
+
+.text {
     text-align: center;
-    
     color: #fff
 }
-.text>P:nth-child(1){
+
+.text>P:nth-child(1) {
     font-size: 22px;
     font-weight: 900;
 }
-.text>p:nth-child(2){
+
+.text>p:nth-child(2) {
     font-size: 16px;
     font-weight: 300;
 }
-.mask{
+
+.mask {
     position: absolute;
     top: 0;
     left: 0;
     border-radius: 3%;
     width: 100%;
     height: 100%;
-    background:rgba(0, 0, 0, .5);
+    background: rgba(0, 0, 0, .5);
 }
+
 .countries {
     display: block;
     text-align: center;
     padding: 30px 0 30px 0;
- }
+}
+
 .countries>li {
     list-style: none;
-
-    font-size:17px;
+    font-size: 17px;
     font-weight: 600;
     line-height: 37px;
     /* margin: 12px 0 12px 0; */
@@ -110,29 +122,33 @@ ul,li{
     padding: 8px 16px 8px 16px;
     margin-left: 24px;
 }
+
 li:hover {
     color: #fff;
     background-color: rgb(180, 199, 241);
 }
-li:active{
+
+li:active {
     background-color: #3477ff;
     color: #fff
 }
-.center{
+
+.center {
     border-top: 1px solid #e5e5e5;
     background-color: #f8f8f8;
 }
-.assessment{
+
+.assessment {
     margin-top: 57px;
     margin-bottom: 156px;
     position: relative;
-
 }
-.assessment>.ask{
-    position:absolute;
-    left:50%;
-    top:50%;
-    transform: translate(176%,-50%); 
+
+.assessment>.ask {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(176%, -50%);
     display: block;
     width: 200px;
     height: 50px;
@@ -144,13 +160,13 @@ li:active{
     background-color: #ff4393;
 }
 
-
 .toTop {
     display: block;
     position: fixed;
     top: 60%;
     right: 6rem;
 }
+
 .leyuu {
     display: block;
     position: fixed;
@@ -252,71 +268,86 @@ footer {
     right: 3rem;
     cursor: pointer
 }
-.container{
+
+.container {
     padding-left: 0 !important;
     padding-right: 0 !important;
 }
+
+
 /* @-moz-document url-prefix() {
     fieldset { display: table-cell; }
   } */
-article{
+
+article {
     margin-bottom: 24px;
 }
-aside{
+
+aside {
     display: inline-block !important;
     width: 216px;
     height: 216px;
     border-radius: 2px;
     margin-right: 18px;
-    background:linear-gradient(#ff2155); /* 一些不支持背景渐变的浏览器 */  
-    background:-moz-linear-gradient( #ff2155, #ffacad);  
-    background:-webkit-linear-gradient(#ff2155,#ffacad);  
-    background:-o-linear-gradient( #ff2155, #ffacad); 
+    background: linear-gradient(#ff2155);
+    /* 一些不支持背景渐变的浏览器 */
+    background: -moz-linear-gradient( #ff2155, #ffacad);
+    background: -webkit-linear-gradient(#ff2155, #ffacad);
+    background: -o-linear-gradient( #ff2155, #ffacad);
     overflow: hidden
 }
-aside .title{
+
+aside .title {
     font: bold 24px Microsoft Yahei;
     color: #fff;
     margin-left: 24px;
     margin-top: 24px;
 }
-aside>p{
+
+aside>p {
     text-align: center;
     vertical-align: 20%;
     margin-top: 70px;
     color: #fff
 }
 
-table{
+table {
     display: inline-block;
     background-color: #fff !important;
-    border-collapse: separate !important ;
+    border-collapse: separate !important;
     width: 930px;
     height: 218px;
     border-spacing: 20px 16px !important;
 }
-table,th,td{
-    
+
+table,
+th,
+td {
     text-align: left;
 }
-tr>td:nth-child(1){
+
+tr>td:nth-child(1) {
     width: 54px;
     text-align: center;
     border-radius: 2px;
     background-color: #f3f3f3;
     color: #b2b2b2
 }
-tr>th{
-    border-bottom:1px solid #f3f3f3;
+
+tr>th {
+    border-bottom: 1px solid #f3f3f3;
     font: bold 20px Microsoft Yahei;
 }
-tbody>tr>td+td{
+
+tbody>tr>td+td {
     color: #7f7f7f;
     vertical-align: top;
 }
-thead>tr>td:nth-child(1){
+
+thead>tr>td:nth-child(1) {
     height: 54px;
 }
-tbody>tr>td:nth-child(1){
+
+tbody>tr>td:nth-child(1) {
     height: 115px;
 }

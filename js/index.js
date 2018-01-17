@@ -3,7 +3,92 @@ function openWin() {
     window.open('http://chat.looyuoms.com/chat/chat/p.do?c=20002134&f=10071643&g=10068659&site=15890&refer=biaoji&loc=biaoji', '', 'height=500, width=800,top=200, left=300,  toolbar =no, menubar=no, scrollbars=no, resizable=no, location=no, status=no')
 };
 
-window.onload=function(){
+window.onload = function () {
+    var data;
+    $.ajax({
+        dataType:'json',
+        url:"data.json",
+        data:data,
+        type:"get",
+        success:function(data,key){
+            var datas=data;
+            console.log(data);
+            for(var key in datas){};
+            $('body').on("click",".majors>ul>li",function(e){
+                console.log("好好学习");
+                
+                console.log($(this).index());
+                // 给当前项的兄弟元素加上阴影，给当前项去除阴影。
+                $(this).siblings().find('.mask').show();
+                $(this).find('.mask').hide();
+                 //获取当前tab中鼠标停在的table栏的索引  
+                var majorIndex=$(this).index();
+                // 取出所有数据中当前专业类目数据
+                var majorData=data[majorIndex];
+                console.log(majorData);
+                // 由于取出的是对象，所以遍历key，求出它的value,并赋值给新变量
+                for(var key in majorData){
+                    console.log(majorData[key]);
+                    var majorDataA=majorData[key]
+                }
+                // 当国家项被点击时
+                $('body').on('click','.countries>li',function(){
+                    console.log("天天向上");
+                    // var countryIndex=$(this).index();
+                    // console.log(countryIndex);
+                    // var countryData=majorData
+                    // 由于json数据结构的原因，此处不能用数组的index绑定，所以用id绑定。
+                   var countryId=$(this).attr('id');
+                   console.log(countryId);
+                    var countryData=majorDataA[countryId];
+                    console.log(countryData);
+                    var OBJ={
+                        items:countryData
+                    };
+                    console.log(OBJ);
+                    var result=template("template",OBJ);
+                    $("article").html('');
+                    $(".articles").append(result)
+
+                })
+
+                
+                // var obj={
+                //     items:majorData[0]
+                // }
+            })
+        }
+    })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     // “返回顶部按钮”显示隐藏
     var clientHeight = document.documentElement.clientHeight;
     window.onscroll = function () {
@@ -32,15 +117,16 @@ window.onload=function(){
     });
     $('.weibo').mouseleave(function () {
         $('.qrweibo').hide()
-    })
+    });
 
-// 分类的遮罩层
+    // 分类的遮罩层
     $('.majors').children('ul').find('.active').children('.mask').hide();
-    $('.majors').on('click','li',function(){
+    $('.majors').on('click', 'li', function () {
 
         $(this).children('.mask').slideUp();
         $(this).siblings().children('.mask').show();
     })
+
 
 
 }

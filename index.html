@@ -50,7 +50,7 @@
     </header>
     <nav class="majors container">
         <ul>
-            <li class="active">
+            <li class="active art">
                 <img src="./img/art.png" alt="美术类">
                 <span class="text">
                     <p>美术类</p>
@@ -58,7 +58,7 @@
                 </span>
                 <div class="mask"></div>
             </li>
-            <li>
+            <li class="broadcaster">
                 <img src="./img/broadcaster.png" alt="播音编导类">
                 <span class="text">
                     <p>播音编导类</p>
@@ -66,7 +66,7 @@
                 </span>
                 <div class="mask"></div>
             </li>
-            <li>
+            <li class="music">
                 <img src="./img/music.png" alt="音乐类">
                 <span class="text">
                     <p>音乐类</p>
@@ -74,7 +74,7 @@
                 </span>
                 <div class="mask"></div>
             </li>
-            <li>
+            <li class="dance">
                 <img src="./img/dance.png" alt="舞蹈类">
                 <span class="text">
                     <p>舞蹈类</p>
@@ -82,7 +82,7 @@
                 </span>
                 <div class="mask"></div>
             </li>
-            <li style="margin-right: 0;">
+            <li class="performance" style="margin-right: 0;">
                 <img src="./img/performance.png" alt="表演类">
                 <span class="text">
                     <p>表演类</p>
@@ -106,35 +106,33 @@
         </nav>
         <section class="articles">
 
-            <article class="container">
-                <aside class="Professional-direction">
-                    <div class="title">视觉传达<br>艺术</div>
-                    <p>绘画、雕塑、装饰、版画等</p>
-                </aside>
-    
-                <table class="table-responsive table-borded">
-                    <thead>
-                        <tr>
-                            <td>院校<br>推荐</td>
-                            <th>伦敦艺术大学</th>
-                            <th>伯恩茅斯艺术大学</th>
-    
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>录取<br>要求</td>
-                            <td>雅思5.0，单项不低于4.0,<br>高中成绩良好，<br>具体参考作品集，<br>有面试</td>
-                            <td>雅思5.5，单项不低于5.0，<br>高中三年平均成绩65以上</td>
-                        </tr>
-                    </tbody>
-    
-                </table>
-            </article>
-
         </section>
         <script id="template" type="text/html">
-            
+            <article class="container">
+                    <aside class="professional-direction">
+                        <div class="professional"></div>
+                        <p class="direction"></p>
+                    </aside>
+        
+                    <table class="table-responsive table-borded">
+                        <thead>
+                            <tr>
+                                <td>院校<br>推荐</td>
+                                <!-- <th>伦敦艺术大学</th>
+                                <th>伯恩茅斯艺术大学</th> -->
+        
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>录取<br>要求</td>
+                                <!-- <td>雅思5.0，单项不低于4.0,<br>高中成绩良好，<br>具体参考作品集，<br>有面试</td>
+                                <td>雅思5.5，单项不低于5.0，<br>高中三年平均成绩65以上</td> -->
+                            </tr>
+                        </tbody>
+        
+                    </table>
+                </article>
         </script>
 
     </section>
@@ -219,9 +217,10 @@
 
 
     <script src="./lib/jquery1.11.3.js"></script>
-    <script src="./js/index.js"></script>
+
     <script src="./lib/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
     <script src="./lib/template-web.js"></script>
+    <script src="./js/index.js"></script>
 </body>
 
 </html>

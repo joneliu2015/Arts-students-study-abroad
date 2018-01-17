@@ -1,9 +1,140 @@
-{
-    "art":[{
-        "美国":[{
-            "professional":"Drawing & Painting",
-            "university":""
+[
+    {"art":{
+        "Americia": {
+            "p1": {
+                "professional": "Drawing & Painting",
+                "direction": "---",
+                "university": [
+                    "耶鲁大学",
+                    "马里兰艺术学院",
+                    "天普大学"
+                ],
 
-        }]
-    }]
-}
+
+                "standards": [
+                    "TOEFL80-100+,<br>作品集",
+                    "TOEFL80-100+,<br>作品集",
+                    "TOEFL80-100+,<br>作品集"
+                ]
+
+
+            },
+            "p2": {
+                "professional": "Photograhphy",
+                "direction": "---",
+                "university": [
+                    "芝加哥艺术学院",
+                    "纽约视觉艺术学院",
+                    "亚利桑那州立大学"
+                ],
+                "standards": [
+                    "TOEFL80-100+,<br>作品集",
+                    "TOEFL80-100+,<br>作品集",
+                    "TOEFL80-100+,<br>作品集"
+                ]
+            }
+
+        },
+        "England":{
+            "p1": {
+                "professional": "视觉传达<br>艺术",
+                "direction": "绘画、雕塑、装饰、版画等",
+                "university": [
+                    "伦敦艺术大学",
+                    "伯恩茅斯艺术大学"
+                ],
+                "standards": [
+                    "雅思5.0，单项不低于4.0,<br>高中成绩良好，<br>具体参考作品集，<br>有面试",
+                    "雅思5.5，单项不低于5.0，<br>高中三年平均成绩65以上"
+                ]
+
+            },
+            "p2": {
+                "professional": "服装设计",
+                "direction": "Fashion Design",
+                "university": [
+                    "中央圣马丁",
+                    "伦敦时装学院",
+                    "金斯顿大学"
+                ],
+                "standards": [
+                    "雅思5.0，单项不低于4.0，高中毕业，有毕业证，有绘画基础的作品集",
+                    "雅思5.5，单项不低于4.5，高中毕业，有毕业证，有绘画基础的作品集",
+                    "雅思5.0，单项不低于4.5，高中毕业，有毕业证，要求提供作品集，有可能需要面试"
+                ]
+
+            }
+
+
+        }
+    }
+},
+    {"broadcaster": {
+        "Americia": {
+            "p1": {
+                "professional": "Drawing & Painting",
+                "direction": "---",
+                "university": [
+                    "耶鲁大学",
+                    "马里兰艺术学院",
+                    "天普大学"
+                ],
+
+
+                "standards": [
+                    "TOEFL80-100+,<br>作品集",
+                    "TOEFL80-100+,<br>作品集",
+                    "TOEFL80-100+,<br>作品集"
+                ]
+
+
+            },
+            "p2": {
+                "professional": "Photograhphy",
+                "direction": "---",
+                "university": [
+                    "芝加哥艺术学院",
+                    "纽约视觉艺术学院",
+                    "亚利桑那州立大学"
+                ],
+                "standards": [
+                    "TOEFL80-100+,<br>作品集",
+                    "TOEFL80-100+,<br>作品集",
+                    "TOEFL80-100+,<br>作品集"
+                ]
+            }
+
+        },
+        "England":{
+            "p1": {
+                "professional": "视觉传达<br>艺术",
+                "direction": "绘画、雕塑、装饰、版画等",
+                "university": [
+                    "伦敦艺术大学",
+                    "伯恩茅斯艺术大学"
+                ],
+                "standards": [
+                    "雅思5.0，单项不低于4.0,<br>高中成绩良好，<br>具体参考作品集，<br>有面试",
+                    "雅思5.5，单项不低于5.0，<br>高中三年平均成绩65以上"
+                ]
+
+            },
+            "p2": {
+                "professional": "服装设计",
+                "direction": "Fashion Design",
+                "university": [
+                    "中央圣马丁",
+                    "伦敦时装学院",
+                    "金斯顿大学"
+                ],
+                "standards": [
+                    "雅思5.0，单项不低于4.0，高中毕业，有毕业证，有绘画基础的作品集",
+                    "雅思5.5，单项不低于4.5，高中毕业，有毕业证，有绘画基础的作品集",
+                    "雅思5.0，单项不低于4.5，高中毕业，有毕业证，要求提供作品集，有可能需要面试"
+                ]
+
+            }
+        }
+    }}
+
+    ]
