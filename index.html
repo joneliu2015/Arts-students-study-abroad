@@ -110,24 +110,36 @@
         <script id="template" type="text/html">
             <article class="container">
                     <aside class="professional-direction">
-                        <div class="professional"></div>
-                        <p class="direction"></p>
+                        <div class="professional">
+                            {{items.professional}}
+                        </div>
+                        <p class="direction">
+                            {{items.direction}}
+                        </p>
                     </aside>
         
                     <table class="table-responsive table-borded">
                         <thead>
-                            <tr>
+                            <tr class='yuanxiao'>
                                 <td>院校<br>推荐</td>
-                                <!-- <th>伦敦艺术大学</th>
-                                <th>伯恩茅斯艺术大学</th> -->
+                                {{each items.university as value index}}
+                                    <td class="university">{{items.university[index]}}</td>
+                                {{/each}}
+                                   
         
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
+                            <tr class='yaoqiu'>
                                 <td>录取<br>要求</td>
-                                <!-- <td>雅思5.0，单项不低于4.0,<br>高中成绩良好，<br>具体参考作品集，<br>有面试</td>
-                                <td>雅思5.5，单项不低于5.0，<br>高中三年平均成绩65以上</td> -->
+
+                                    {{each items.standards as velue index}}
+                                    
+                                    <td class="standards">{{@ items.standards[index]}}</td>
+                                    {{/each}}
+         
+                                
+                               
                             </tr>
                         </tbody>
         

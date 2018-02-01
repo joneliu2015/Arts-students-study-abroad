@@ -14,6 +14,8 @@ window.onload = function () {
             var datas=data;
             console.log(data);
             for(var key in datas){};
+            // 专业分类点击事件
+            
             $('body').on("click",".majors>ul>li",function(e){
                 console.log("好好学习");
                 
@@ -33,30 +35,44 @@ window.onload = function () {
                 }
                 // 当国家项被点击时
                 $('body').on('click','.countries>li',function(){
+                    $('.articles').html("");
                     console.log("天天向上");
                     // var countryIndex=$(this).index();
                     // console.log(countryIndex);
                     // var countryData=majorData
                     // 由于json数据结构的原因，此处不能用数组的index绑定，所以用id绑定。
                    var countryId=$(this).attr('id');
-                   console.log(countryId);
+                   console.log(countryId)
+                //    得到每个国家的数据
                     var countryData=majorDataA[countryId];
                     console.log(countryData);
-                    var OBJ={
-                        items:countryData
-                    };
-                    console.log(OBJ);
-                    var result=template("template",OBJ);
-                    $("article").html('');
-                    $(".articles").append(result)
+                    // 遍历当前国家项的数据
+                    $.each(countryData,function(index,item){
+                        console.log(countryData[index]);
+                        console.log(countryData[index].professional);
+                        // 为国家项数据设置一个新变量
+                        var countryDataIndex=countryData[index];
+                        console.log(countryDataIndex.professional);
+                        // 将国家项数据转为对象
+                        var OBJ={
+                            items:countryDataIndex
+                        };
+                        console.log(OBJ);
+                        // 将对象写入模板引擎并赋值给result变量
+                        var result=template("template",OBJ);
+                        console.log(countryDataIndex.university);
+                   
+                        $(".articles").append(result);
+                    })
+                   
+                    
 
                 })
-
+            $('#Americia').trigger('click');       
                 
-                // var obj={
-                //     items:majorData[0]
-                // }
+              
             })
+            $('.art').trigger('click');
         }
     })
 
