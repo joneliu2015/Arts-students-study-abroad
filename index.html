@@ -111,7 +111,7 @@
             <article class="container">
                     <aside class="professional-direction">
                         <div class="professional">
-                            {{items.professional}}
+                            {{@ items.professional}}
                         </div>
                         <p class="direction">
                             {{items.direction}}
@@ -123,7 +123,7 @@
                             <tr class='yuanxiao'>
                                 <td>院校<br>推荐</td>
                                 {{each items.university as value index}}
-                                    <td class="university">{{items.university[index]}}</td>
+                                    <td class="university">{{@ items.university[index]}}</td>
                                 {{/each}}
                                    
         
@@ -132,14 +132,16 @@
                         <tbody>
                             <tr class='yaoqiu'>
                                 <td>录取<br>要求</td>
-
-                                    {{each items.standards as velue index}}
-                                    
+                                {{each items.standards as velue index}}
                                     <td class="standards">{{@ items.standards[index]}}</td>
-                                    {{/each}}
-         
+                                {{/each}}  
                                 
-                               
+                            </tr>
+                            <tr class='xiangmu'>
+                                <td>推荐<br>项目</td>
+                                {{each items.project as velue index}}
+                                    <td class="standards">{{@ items.project[index]}}</td>
+                                {{/each}}  
                             </tr>
                         </tbody>
         
