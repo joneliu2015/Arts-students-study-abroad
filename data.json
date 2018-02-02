@@ -295,7 +295,7 @@
                 "professional": "绘画",
                 "direction": "painting",
                 "university": [
-                    "安大略艺术设计学院、艾米丽卡尔艺术与设计大学、<br>康考迪亚大学、女王大学、约克大学"
+                    "安大略艺术设计学院，艾米丽卡尔艺术与设计大学，<br>康考迪亚大学，女王大学，约克大学"
 
                 ],
                 "standards": [
@@ -310,7 +310,7 @@
                 "professional": "环境设计",
                 "direction": "environment design",
                 "university": [
-                    "安大略艺术设计学院、达尔豪斯大学、曼尼托巴大学"
+                    "安大略艺术设计学院，达尔豪斯大学，曼尼托巴大学"
 
                 ],
                 "standards": [
@@ -325,7 +325,7 @@
                 "professional": "平面设计",
                 "direction": "Graphic Design",
                 "university": [
-                    "安大略艺术设计学院、曼尼托巴大学、温哥华岛大学、昆特兰理工大学"
+                    "安大略艺术设计学院，曼尼托巴大学，温哥华岛大学，昆特兰理工大学"
 
                 ],
                 "standards": [
@@ -340,7 +340,7 @@
                 "professional": "插画",
                 "direction": "illustration",
                 "university": [
-                    "安大略艺术设计学院、艾米丽卡尔艺术与设计大学"
+                    "安大略艺术设计学院，艾米丽卡尔艺术与设计大学"
 
                 ],
                 "standards": [
@@ -355,7 +355,7 @@
                 "professional": "版画",
                 "direction": "print",
                 "university": [
-                    "安大略艺术设计学院、女王大学、约克大学"
+                    "安大略艺术设计学院，女王大学，约克大学"
 
                 ],
                 "standards": [
@@ -370,7 +370,7 @@
                 "professional": "工业设计",
                 "direction": "Industrial Design",
                 "university": [
-                    "安大略艺术设计学院、艾米丽卡尔艺术与设计大学、阿尔伯塔大学"
+                    "安大略艺术设计学院，艾米丽卡尔艺术与设计大学，阿尔伯塔大学"
 
                 ],
                 "standards": [
@@ -385,7 +385,7 @@
                 "professional": "摄影",
                 "direction": "Photography",
                 "university": [
-                    "安大略艺术设计学院、艾米丽卡尔艺术与设计大学、约克大学"
+                    "安大略艺术设计学院，艾米丽卡尔艺术与设计大学，约克大学"
 
                 ],
                 "standards": [
@@ -400,7 +400,7 @@
                 "professional": "雕塑",
                 "direction": "sculpture",
                 "university": [
-                    "安大略艺术设计学院、女王大学、约克大学"
+                    "安大略艺术设计学院，女王大学，约克大学"
 
                 ],
                 "standards": [
@@ -415,7 +415,7 @@
                 "professional": "视觉传达设计",
                 "direction": "Visual Communication Design",
                 "university": [
-                    "艾米丽卡尔艺术与设计大学、阿尔伯塔大学、诺瓦艺术设计大学"
+                    "艾米丽卡尔艺术与设计大学，阿尔伯塔大学，诺瓦艺术设计大学"
 
                 ],
                 "standards": [
@@ -430,7 +430,7 @@
                 "professional": "动画",
                 "direction": "Animation",
                 "university": [
-                    "艾米丽卡尔艺术与设计大学、康考迪亚大学、安大略艺术设计学院"
+                    "艾米丽卡尔艺术与设计大学，康考迪亚大学，安大略艺术设计学院"
 
                 ],
                 "standards": [
@@ -445,7 +445,7 @@
                 "professional": "瓷器艺术",
                 "direction": "Porcelain art",
                 "university": [
-                    "曼尼托巴大学、康考迪亚大学、诺瓦艺术与设计大学"
+                    "曼尼托巴大学，康考迪亚大学，诺瓦艺术与设计大学"
 
                 ],
                 "standards": [
@@ -460,7 +460,7 @@
                 "professional": "服装设计",
                 "direction": "Fashion Design",
                 "university": [
-                    "昆特兰理工大学、诺瓦艺术与设计大学、瑞尔森大学"
+                    "昆特兰理工大学，诺瓦艺术与设计大学，瑞尔森大学"
 
                 ],
                 "standards": [
@@ -486,75 +486,699 @@
                 ]
 
             }
+        ],
+        "Austrilia":[
+            {
+                "professional": "动画设计",
+                "direction": "Animation Design",
+                "university": [
+                    "悉尼科技大学",
+                    "皇家墨尔本理工大学"
+                ],
+                "standards": [
+                    "学制3年。可以直接使用高考成绩进行申请；国内高二完读课申请预科课程衔接大一；国内高三完读课申请大一文凭课程衔接大二.无需作品集提供",
+                    "学制3年。国内高二/高三完读.根据高中文化课成绩可以选择通过1年预科课程衔接或直接入读本科,课程方向：2D/3D、动态影像、互动媒体"
+                ],
+                "project":[
+                    "<a href='http://chat.looyuoms.com/chat/chat/p.do?c=20002134&f=10071643&g=10068659&site=15890&refer=biaoji&loc=biaoji' target='_blank'>点击了解-斯芬克作品集指导课程</a>"
+                ]
+
+            },
+            {
+                "professional": "服装设计",
+                "direction": "Fashion Design",
+                "university": [
+                    "悉尼科技大学",
+                    "科廷大学"
+                ],
+                "standards": [
+                    "学制3年。可以直接使用高考成绩进行申请；<br>国内高二完读课申请预科课程衔接大一；国内高三完读课申请大一文凭课程衔接大二.",
+                    "学制3年。可以接受高考成绩申请；也可通过预科课程进行本科衔接"
+                ],
+                "project":[
+                    "<a href='http://chat.looyuoms.com/chat/chat/p.do?c=20002134&f=10071643&g=10068659&site=15890&refer=biaoji&loc=biaoji' target='_blank'>点击了解-斯芬克作品集指导课程</a>"
+                ]
+
+            },
+            {
+                "professional": "建筑设计",
+                "direction": "Architectural Design",
+                "university": [
+                    "莫纳什大学",
+                    "悉尼大学"
+                ],
+                "standards": [
+                    "学制5年（本硕连读）。<br>国内高二/高三完读，通过预科课程衔接本科，需要提供作品集.",
+                    "学制3年。可以通过国内高考成绩进行申请；<br>国内高二/高三完读通过预科衔接本科，无需作品集"
+                ],
+                "project":[
+                    "<a href='http://chat.looyuoms.com/chat/chat/p.do?c=20002134&f=10071643&g=10068659&site=15890&refer=biaoji&loc=biaoji' target='_blank'>点击了解-斯芬克作品集指导课程</a>"
+                ]
+
+            },
+            {
+                "professional": "摄影",
+                "direction": "Architectural Design",
+                "university": [
+                    "皇家墨尔本理工大学"
+                ],
+                "standards": [
+                    "学制3年。国内高二/高三完读.<br>根据高中文化课成绩可以选择通过1年预科课程衔接或直接入读本科（直接入读本科需要提供作品集）"
+                ],
+                "project":[
+                    "<a href='http://chat.looyuoms.com/chat/chat/p.do?c=20002134&f=10071643&g=10068659&site=15890&refer=biaoji&loc=biaoji' target='_blank'>点击了解-斯芬克作品集指导课程</a>"
+                ]
+
+            },
+            {
+                "professional": "插图设计",
+                "direction": "Illustration Design",
+                "university": [
+                    "科廷大学"
+                ],
+                "standards": [
+                    "学制3年。可以接受高考成绩申请；也可通过预科课程进行本科衔接"
+                ],
+                "project":[
+                    "<a href='http://chat.looyuoms.com/chat/chat/p.do?c=20002134&f=10071643&g=10068659&site=15890&refer=biaoji&loc=biaoji' target='_blank'>点击了解-斯芬克作品集指导课程</a>"
+                ]
+
+            }
+        ],
+        "Europe":[
+            {
+                "professional": "视觉传达艺术",
+                "direction": "绘画、雕塑、装饰、版画等",
+                "university": [
+                    "意大利米兰国立美院，那不勒斯美术学院"
+                ],
+                "standards": [
+                    "1、高考文化课成绩300分以上（满分750分），具有高中毕业证，高中艺术特长生；<br>2、国内意大利语400课时左右，参加国内7月的学校来华专业考试；<br>3、考生需递交自己的作品集"
+                ],
+                "project":[
+                    "<a href='http://chat.looyuoms.com/chat/chat/p.do?c=20002134&f=10071643&g=10068659&site=15890&refer=biaoji&loc=biaoji' target='_blank'>艺形者培训项目-点击了解</a>"
+                ]
+
+            },
+            {
+                "professional": "服装设计",
+                "direction": "Fashion Design",
+                "university": [
+                    "法国ESMOD服装设计学院，MOD'ART巴黎国际时装艺术学院"
+                ],
+                "standards": [
+                    "1. 高考文化课成绩400以上（满分750），具有高中毕业证，高中艺术特长生；<br>2. 法语TCF考试B1以上；<br>3. 作品集"
+                ],
+                "project":[
+                    "<a href='http://chat.looyuoms.com/chat/chat/p.do?c=20002134&f=10071643&g=10068659&site=15890&refer=biaoji&loc=biaoji' target='_blank'>艺形者培训项目-点击了解</a>"
+                ]
+
+            }
+        ],
+        "Asia":[
+            {
+                "professional": "视觉传达艺术",
+                "direction": "绘画、雕塑、装饰、版画等",
+                "university": [
+                    "韩国：韩国庆熙大学，韩国汉阳大学，梨花女子大学等",
+                    "日本：文化学园大学,东京艺术大学，京都工艺纤维大学，多摩美术大学，大阪艺术大学等 ",
+                    "马来西亚：<br>林国荣大学 "
+                ],
+                "standards": [
+                    "1.国内高三在读（完成高二学业水平测试）或高中毕业（或同等学历：中专，职高，技校），具有高中毕业证，高中艺术特长；<br>2.韩语TOPIK三级（可在韩国语学堂完成韩语学习）；<br>3.考生需递交自己作品。 ",
+                    "1.国内高三在读（完成高二学业水平测试）或高中毕业（或同等学历：中专，职高，技校），具有高中毕业证，高中艺术特长；<br>2. 国内需有160小时以上日语学习或日语初级等级证书可赴日本读语言学校；<br>3.升学需要日语N2以上；4.有绘画基础；",
+                    "1.高中毕业；<br>2.雅思6.0分（可提供英文课程）； "
+                ],
+                "project":[
+                    "<a href='http://chat.looyuoms.com/chat/chat/p.do?c=20002134&f=10071643&g=10068659&site=15890&refer=biaoji&loc=biaoji' target='_blank'>艺形者培训项目-点击了解</a>",
+                    "<a href='http://chat.looyuoms.com/chat/chat/p.do?c=20002134&f=10071643&g=10068659&site=15890&refer=biaoji&loc=biaoji' target='_blank'>境外升学辅导课程-点击了解</a>"
+                ]
+
+            }
         ]
     }
 },
     {"broadcaster": {
-        "Americia": {
-            "p1": {
-                "professional": "Drawing & Painting",
+        "Americia":[
+            {
+                "professional": "Film Making",
                 "direction": "---",
                 "university": [
-                    "耶鲁大学",
-                    "马里兰艺术学院",
-                    "天普大学"
+                    "南加州大学",
+                    "卫斯理大学",
+                    "北卡罗莱纳大学艺术学院"
                 ],
 
 
                 "standards": [
-                    "TOEFL80-100+,<br>作品集",
-                    "TOEFL80-100+,<br>作品集",
-                    "TOEFL80-100+,<br>作品集"
+                    "TOEFL80-100+,<br>部分要求SAT，作品集",
+                    "TOEFL80-100+,<br>部分要求SAT，作品集",
+                    "TOEFL80-100+,<br>部分要求SAT，作品集"
+                ],
+                "project":[
+                    "<a href='http://liuxue.xdf.cn/special/usa/Undergraduate/' target='_blank'>美国本科留学申请</a>",
+                    "<a href='http://liuxue.xdf.cn/special/usa/postgraduate_bjts/html/art.html' target='_blank'>艺术留学作品集培训</a>",
+                    "<a href='http://liuxue.xdf.cn/special/usa/Undergraduate_summerschool/' target='_blank'>美国本科暑期课程</a>"  
                 ]
 
 
             },
-            "p2": {
-                "professional": "Photograhphy",
+             {
+                "professional": "Animation",
                 "direction": "---",
                 "university": [
-                    "芝加哥艺术学院",
-                    "纽约视觉艺术学院",
-                    "亚利桑那州立大学"
+                    "加州艺术学院",
+                    "萨凡纳艺术设计学院",
+                    "德州农工大学"
                 ],
                 "standards": [
                     "TOEFL80-100+,<br>作品集",
                     "TOEFL80-100+,<br>作品集",
                     "TOEFL80-100+,<br>作品集"
+                ],
+                "project":[
+                    "<a href='http://liuxue.xdf.cn/special/usa/Undergraduate/' target='_blank'>美国本科留学申请</a>",
+                    "<a href='http://liuxue.xdf.cn/special/usa/postgraduate_bjts/html/art.html' target='_blank'>艺术留学作品集培训</a>",
+                    "<a href='http://liuxue.xdf.cn/special/usa/Undergraduate_summerschool/' target='_blank'>美国本科暑期课程</a>"  
                 ]
             }
+
+        ] ,
+        "England":[
+             {
+                "professional": "新闻传媒",
+                "direction": "News Media",
+                "university": [
+                    "华威大学",
+                    "谢菲尔德大学",
+                    "伦敦大学国王学院"
+                ],
+                "standards": [
+                    "雅思5.5，单项不低于5.5；<br>高中三年平均成绩85分以上",
+                    "雅思5.0，写作5.0，单项不低于4.0；<br>高中三年平均成绩80分以上",
+                    "雅思5.5，阅读写作5.5，听力口语5.0；<br>高中三年平均成绩85分以上"
+                   
+                ],
+                "project":[
+                    "<a href='http://chat.looyuoms.com/chat/chat/p.do?c=20002134&f=10071643&g=10068659&site=15890&refer=biaoji&loc=biaoji' target='_blank'>点击了解-斯芬克作品集指导课程</a>"
+                ]
+
+            },
+             {
+                "professional": "剧本与电影相关专业",
+                "direction": "Screenplay and Film",
+                "university": [
+                    "伦敦大学皇家霍洛威学院",
+                    "华威大学",
+                    "约克大学"
+                ],
+                "standards": [
+                    "雅思5.0，写作5.0；<br>高中三年平均成绩75分以上",
+                    "雅思5.0，写作5.0；<br>高中三年平均成绩75分以上",
+                    "雅思5.0，单项不低于4.0，<br>高中三年平均成绩85分以上"
+                ],
+                "project":[
+                    "<a href='http://chat.looyuoms.com/chat/chat/p.do?c=20002134&f=10071643&g=10068659&site=15890&refer=biaoji&loc=biaoji' target='_blank'>点击了解-斯芬克作品集指导课程</a>"
+                ]
+
+            }
+        ],
+        "Canada":[
+            {
+                "professional": "暂无数据",
+                "direction": "暂无数据",
+                "university": [
+                    "暂无数据"
+                  
+                ],
+                "standards": [
+                    "暂无数据"
+
+                   
+                ],
+                "project":[
+                    "<a href='http://chat.looyuoms.com/chat/chat/p.do?c=20002134&f=10071643&g=10068659&site=15890&refer=biaoji&loc=biaoji' target='_blank'>点击了解-斯芬克作品集指导课程</a>"
+                ]
+
+            }
+        ],
+        "Austrilia":[
+            {
+                "professional": "传媒文化<br>创意写作<br>影视后期制作<br>新闻杂志",
+                "direction": " ",
+                "university": [
+                    "麦考瑞大学",
+                    "悉尼科技大学"
+                ],
+                "standards": [
+                    "国内高二/高三完读，通过预科或大一文凭课程进行本科课程衔接",
+                    "国内高二/高三完读，通过预科或大一文凭课程进行本科课程衔接。<br>提供课程方向：创意写作、数字媒体、新闻杂志、大众传媒"
+                   
+                ],
+                "project":[
+                    "<a href='http://liuxue.xdf.cn/special/aus/growingup/' target='_blank'>点击了解-英领学术写作预修课程</a>"
+                ]
+
+            }
+        ],
+        "Europe":[
+            {
+                "professional": "多媒体技术",
+                "direction": " ",
+                "university": [
+                    "法国IESA文化艺术管理学院"
+                ],
+                "standards": [
+                    "1. 高考文化课400分以上，高中毕业；<br>2. 法语TCF考试B2以上"
+                   
+                ],
+                "project":[
+                    "<a href='http://chat.looyuoms.com/chat/chat/p.do?c=20002134&f=10071643&g=10068659&site=15890&refer=biaoji&loc=biaoji' target='_blank'>点击了解</a>"
+                ]
+
+            },
+            {
+                "professional": "电影电视制作",
+                "direction": "MA Producing Film <br> and Television",
+                "university": [
+                    "意大利罗马三大"
+                ],
+                "standards": [
+                    "1. 高考文化课400分以上，高中毕业；<br>2. 意大利语A2水平，计划生3"
+                   
+                ],
+                "project":[
+                    "<a href='http://chat.looyuoms.com/chat/chat/p.do?c=20002134&f=10071643&g=10068659&site=15890&refer=biaoji&loc=biaoji' target='_blank'>点击了解</a>"
+                ]
+
+            },
+            {
+                "professional": "媒体广告",
+                "direction": "Media Advertisement",
+                "university": [
+                    "意大利乌尔比诺大学"
+                ],
+                "standards": [
+                    "1. 高考文化课400分以上，高中毕业；<br>2. 意大利语A2水平，计划生3"
+                   
+                ],
+                "project":[
+                    "<a href='http://chat.looyuoms.com/chat/chat/p.do?c=20002134&f=10071643&g=10068659&site=15890&refer=biaoji&loc=biaoji' target='_blank'>点击了解</a>"
+                ]
+
+            }
+        ],
+        "Asia":[
+            {
+                "professional": "大众传媒",
+                "direction": "Mass Communication",
+                "university": [
+                    "韩国：韩国庆熙大学，韩国中央大学，高丽大学等",
+                    "日本：大阪大学，筑波大学，横滨国立大学，日本大学等"
+                ],
+                "standards": [
+                    "1.国内高三在读（完成高二学业水平测试）或高中毕业（或同等学历：中专，职高，技校），具有高中毕业证，高中艺术特长；<br>2.韩语TOPIK三级（可在韩国语学堂完成韩语学习）；3.面试。",
+                    "1.国内高三在读（完成高二学业水平测试）或高中毕业（或同等学历：中专，职高，技校），具有高中毕业证，高中艺术特长；2. 国内需有160小时以上日语学习或日语初级等级证书可赴日本读语言学校；3.升学需要日语N2以上；4.面试；"
+                ],
+                "project":[
+                    "<a href='http://chat.looyuoms.com/chat/chat/p.do?c=20002134&f=10071643&g=10068659&site=15890&refer=biaoji&loc=biaoji' target='_blank'>艺形者培训项目，境外升学辅导课程-点击了解</a>"
+                ]
+
+            }
+        ]
+
+
+
+
+
+
+
+    }
+},
+
+{"Music": {
+    "Americia":[
+        {
+            "professional": "Piano/Composition",
+            "direction": "  ",
+            "university": [
+                "柯蒂斯音乐学院",
+                "茱莉亚音乐学院",
+                "伯克利音乐学院"
+            ],
+            "standards": [
+                "TOEFL80-100+,作品集",
+                "TOEFL80-100+,作品集",
+                "TOEFL80-100+,作品集"
+            
+            ],
+            "project":[
+                "<a href='http://liuxue.xdf.cn/special/usa/Undergraduate/' target='_blank'>美国本科留学申请</a>",
+                "<a href='http://liuxue.xdf.cn/special/usa/postgraduate_bjts/html/art.html' target='_blank'>艺术留学作品集培训</a>",
+                "<a href='http://liuxue.xdf.cn/special/usa/Undergraduate_summerschool/' target='_blank'>美国本科暑期课程</a>"  
+            ]
+
+        }
+    ],
+    "England":[
+        {
+            "professional": "音乐学",
+            "direction": "  ",
+            "university": [
+                "利物浦大学",
+                "布里斯托大学",
+                "爱丁堡大学"
+            ],
+            "standards": [
+                "雅思5.5，单项不低于4.5，<br>高中三年平均成绩70分以上",
+                "雅思6.0，写作5.5，其他不低于5.0；<br>高中三年平均成绩80分以上",
+                "雅思5.5，单项不低于5.5；<br>高中三年平均成绩不低于80分以上"
+            
+            ],
+            "project":[
+                "<a href='http://chat.looyuoms.com/chat/chat/p.do?c=20002134&f=10071643&g=10068659&site=15890&refer=biaoji&loc=biaoji' target='_blank'>点击了解</a>"
+            ]
+
+        }
+    ],
+    "Canada":[
+        {
+            "professional": "音乐学",
+            "direction": "  ",
+            "university": [
+                "UBC，麦吉尔大学，爱德华王子岛大学，纽芬兰纪念大学，阿尔伯塔大学，渥太华大学  "
+            ],
+            "standards": [
+                "1、高中平时成绩。学校至少要求均分60%以上，有些学校要求平时成绩不低于70%。有些学校需要会考成绩。2、需要通过学校的演奏、演唱考试。3、语言成绩。大部分学校要求雅思不低于6.5。托福至少不低于80，有些学校对小分有要求。 4、麦吉尔大学不能双录、其它学校均可双录。5、学校分表演专业（Performance Major）和一般专业（General Major），一般专业的录取率更高一些。"
+            
+            ],
+            "project":[
+                "<a href='http://chat.looyuoms.com/chat/chat/p.do?c=20002134&f=10071643&g=10068659&site=15890&refer=biaoji&loc=biaoji' target='_blank'>点击了解</a>"
+            ]
+
+        }
+    ],
+    "Austrilia":[
+        {
+            "professional": "表演，音乐作曲，音乐教育",
+            "direction": " ",
+            "university": [
+                "悉尼大学",
+               " 阿德莱德大学埃尔德音乐学院"
+            ],
+            "standards": [
+                "本科学制4年。1.需要进行音乐试演或试唱面试（DVD或现场演凑) 2.学生对于音符要有基本的认识）2.同时可以通过高考成绩进行本科申请，如高考成绩未达到要求可通过悉尼大学预科进行衔接）。提供课程方向：铜管乐器、古典乐、爵士乐、打击乐、钢琴、弦乐、声乐、木管乐器",
+                "本科学制3年。中国高二/高三完读，提供对应学期成绩单。课程覆盖方向：古典声乐、作曲、流行音乐及创新技术、音效艺术、音乐教育、爵士及古典音乐表演、音乐学。乐器种类覆盖打击乐器、弦乐器、铜管乐器、键盘乐器、木管乐器及声乐"
+            ],
+            "project":[
+                "<a href='http://chat.looyuoms.com/chat/chat/p.do?c=20002134&f=10071643&g=10068659&site=15890&refer=biaoji&loc=biaoji' target='_blank'>点击了解</a>"
+            ]
+
+        }
+    ],
+    "Europe":[
+        {
+            "professional": "声乐",
+            "direction": "vocal music",
+            "university": [
+                "意大利普切尼音乐学院",
+               " 德国汉诺威音乐与戏剧学院"
+            ],
+            "standards": [
+                "1.高考文化课300分以上，高中毕业；<br>2. 意大利语A2水平；<br>3. 参加学校考试",
+                "1.年满16岁；<br>2.高中在读或高中毕业，大学在读或大学毕业；<br>3.德语400课时；"
+            ],
+            "project":[
+                "<a href='http://chat.looyuoms.com/chat/chat/p.do?c=20002134&f=10071643&g=10068659&site=15890&refer=biaoji&loc=biaoji' target='_blank'>点击了解</a>"
+            ]
 
         },
-        "England":{
-            "p1": {
-                "professional": "视觉传达<br>艺术",
-                "direction": "绘画、雕塑、装饰、版画等",
-                "university": [
-                    "伦敦艺术大学",
-                    "伯恩茅斯艺术大学"
-                ],
-                "standards": [
-                    "雅思5.0，单项不低于4.0,<br>高中成绩良好，<br>具体参考作品集，<br>有面试",
-                    "雅思5.5，单项不低于5.0，<br>高中三年平均成绩65以上"
-                ]
+        {
+            "professional": "器乐",
+            "direction": "Instrumental Music",
+            "university": [
+                "法国亚眠国立音乐学院",
+               "德国柏林音乐学院"
+            ],
+            "standards": [
+                "1. 高考文化课400以上（新政策无要求），高中毕业；<br>2. 法语TCF考试B1以上； 3. 参加学校面试",
+                "1.年满18岁；2.高中在读或高中毕业，大学在读或大学毕业；<br>3.德语400课时;4.参加入学考试"
+            ],
+            "project":[
+                "<a href='http://chat.looyuoms.com/chat/chat/p.do?c=20002134&f=10071643&g=10068659&site=15890&refer=biaoji&loc=biaoji' target='_blank'>点击了解</a>"
+            ]
 
-            },
-            "p2": {
-                "professional": "服装设计",
-                "direction": "Fashion Design",
-                "university": [
-                    "中央圣马丁",
-                    "伦敦时装学院",
-                    "金斯顿大学"
-                ],
-                "standards": [
-                    "雅思5.0，单项不低于4.0，高中毕业，有毕业证，有绘画基础的作品集",
-                    "雅思5.5，单项不低于4.5，高中毕业，有毕业证，有绘画基础的作品集",
-                    "雅思5.0，单项不低于4.5，高中毕业，有毕业证，要求提供作品集，有可能需要面试"
-                ]
+        },
+        {
+            "professional": "音乐教育",
+            "direction": "Music Education",
+            "university": [
+                "俄罗斯国立师范大学",
+               "德国富克旺根艺术大学"
+            ],
+            "standards": [
+                "1. 高中毕业；<br>2. 俄语0基础入预科",
+                "1.年龄满18周岁，艺术特长高中生、大学在校和毕业生；<br>2.德语400课时以上；3.参加入学考试"
+            ],
+            "project":[
+                "<a href='http://chat.looyuoms.com/chat/chat/p.do?c=20002134&f=10071643&g=10068659&site=15890&refer=biaoji&loc=biaoji' target='_blank'>点击了解</a>"
+            ]
 
-            }
         }
-    }}
+    ],
+    "Asia":[
+        {
+            "professional": "作曲<br>声乐<br>器乐<br>管弦乐",
+            "direction": "Composition",
+            "university": [
+                "韩国：韩国庆熙大学，韩国汉阳大学，梨花女子大学等",
+                "日本：东京芸术大学，昭和音乐大学，名古屋音乐大学，东京音乐大学等"
+            ],
+            "standards": [
+                "1.国内高三在读（完成高二学业水平测试）或高中毕业（或同等学历：中专，职高，技校），具有高中毕业证，高中艺术特长；2.韩语TOPIK三级（可在韩国语学堂完成韩语学习）；3.音乐学部 : 面试+自由演奏及乐器演奏 或作品集，视频等",
+                "1.国内高三在读（完成高二学业水平测试）或高中毕业（或同等学历：中专，职高，技校），具有高中毕业证，高中艺术特长；2. 国内需有160小时以上日语学习或日语初级等级证书可赴日本读语言学校；3.升学需要日语N2以上；4.音乐学部 : 面试+自由演奏及乐器演奏 或作品集，视频等 "
+            ],
+            "project":[
+                "<a href='http://chat.looyuoms.com/chat/chat/p.do?c=20002134&f=10071643&g=10068659&site=15890&refer=biaoji&loc=biaoji' target='_blank'>艺形者培训项目，境外升学辅导课程-点击了解</a>"
+            ]
 
+        }
     ]
+
+
+
+
+}},
+{"Dance": {
+    "Americia":[
+        {
+            "professional": "暂无",
+            "direction": " ",
+            "university": [
+                "暂无"
+            ],
+            "standards": [
+                "暂无"
+            ],
+            "project":[
+                "<a href='http://chat.looyuoms.com/chat/chat/p.do?c=20002134&f=10071643&g=10068659&site=15890&refer=biaoji&loc=biaoji' target='_blank'>点击了解</a>"
+            ]
+
+        }
+    ],
+    "England":[
+        {
+            "professional": "舞蹈",
+            "direction": " ",
+            "university": [
+                "皇家霍洛威大学"
+            ],
+            "standards": [
+                "雅思5.0，写作5.0；<br>高中三年平均成绩75分以上"
+            ],
+            "project":[
+                "<a href='http://chat.looyuoms.com/chat/chat/p.do?c=20002134&f=10071643&g=10068659&site=15890&refer=biaoji&loc=biaoji' target='_blank'>点击了解</a>"
+            ]
+
+        }
+    ],
+    "Canada":[
+        {
+            "professional": "暂无",
+            "direction": " ",
+            "university": [
+                "暂无"
+            ],
+            "standards": [
+                "暂无"
+            ],
+            "project":[
+                "<a href='http://chat.looyuoms.com/chat/chat/p.do?c=20002134&f=10071643&g=10068659&site=15890&refer=biaoji&loc=biaoji' target='_blank'>点击了解</a>"
+            ]
+
+        }
+    ],
+    "Austrilia":[
+        {
+            "professional": "暂无",
+            "direction": " ",
+            "university": [
+                "暂无"
+            ],
+            "standards": [
+                "暂无"
+            ],
+            "project":[
+                "<a href='http://chat.looyuoms.com/chat/chat/p.do?c=20002134&f=10071643&g=10068659&site=15890&refer=biaoji&loc=biaoji' target='_blank'>点击了解</a>"
+            ]
+
+        }
+    ],
+    "Europe":[
+        {
+            "professional": "芭蕾舞",
+            "direction": "Ballet ",
+            "university": [
+                "俄罗斯圣彼得堡国立文化艺术大学"
+            ],
+            "standards": [
+                "1. 高中毕业；<br>2. 俄语0基础入预科"
+            ],
+            "project":[
+                "<a href='http://chat.looyuoms.com/chat/chat/p.do?c=20002134&f=10071643&g=10068659&site=15890&refer=biaoji&loc=biaoji' target='_blank'>点击了解</a>"
+            ]
+
+        }
+    ],
+    "Asia":[
+        {
+            "professional": "韩国舞蹈<br>现代舞蹈",
+            "direction": " ",
+            "university": [
+                "韩国：韩国庆熙大学，韩国汉阳大学，梨花女子大学等  ",
+                "日本：东京芸术大学，昭和音乐大学，名古屋音乐大学，东京音乐大学等"
+            ],
+            "standards": [
+                "1.国内高三在读（完成高二学业水平测试）或高中毕业（或同等学历：中专，职高，技校），具有高中毕业证，高中艺术特长；2.韩语TOPIK三级（可在韩国语学堂完成韩语学习）；3.面试+考生准备的所功专业作品；服装要求: 专业服饰；音乐: 自备作品所需音乐(CD)  ",
+                "1.国内高三在读（完成高二学业水平测试）或高中毕业（或同等学历：中专，职高，技校），具有高中毕业证，高中艺术特长；2. 国内需有160小时以上日语学习或日语初级等级证书可赴日本读语言学校；3.升学需要日语N2以上；4.音乐学部 : 面试+自由演奏及乐器演奏 或作品集，视频等   "
+            ],
+            "project":[
+                "<a href='http://chat.looyuoms.com/chat/chat/p.do?c=20002134&f=10071643&g=10068659&site=15890&refer=biaoji&loc=biaoji' target='_blank'>点击了解</a>"
+            ]
+
+        }
+    ]
+}},
+
+{"Performance": {
+    "Americia":[
+        {
+            "professional": "暂无",
+            "direction": " ",
+            "university": [
+                "暂无"
+            ],
+            "standards": [
+                "暂无"
+            ],
+            "project":[
+                "<a href='http://chat.looyuoms.com/chat/chat/p.do?c=20002134&f=10071643&g=10068659&site=15890&refer=biaoji&loc=biaoji' target='_blank'>点击了解</a>"
+            ]
+
+        }
+    ],
+    "England":[
+        {
+            "professional": "戏剧",
+            "direction": " Drama",
+            "university": [
+                "伦敦大学皇家霍洛威学院",
+                "埃克塞特大学",
+                "华威大学",
+                "布里斯托大学"
+            ],
+            "standards": [
+                "雅思5.0，写作5.0；高中三年平均成绩75分以上",
+                "雅思5.5，单项不低于5.0，高中三年平均成绩75分以上",
+                "雅思5.5，单项不低于5.5；高中三年平均成绩85分以上",
+                "雅思6.0，写作5.5，其他不低于5.0；高中三年平均成绩80分以上"
+            ],
+            "project":[
+                "<a href='http://chat.looyuoms.com/chat/chat/p.do?c=20002134&f=10071643&g=10068659&site=15890&refer=biaoji&loc=biaoji' target='_blank'>点击了解</a>"
+            ]
+
+        }
+    ],
+    "Canada":[
+        {
+            "professional": "暂无",
+            "direction": " ",
+            "university": [
+                "暂无"
+            ],
+            "standards": [
+                "暂无"
+            ],
+            "project":[
+                "<a href='http://chat.looyuoms.com/chat/chat/p.do?c=20002134&f=10071643&g=10068659&site=15890&refer=biaoji&loc=biaoji' target='_blank'>点击了解</a>"
+            ]
+
+        }
+    ],
+    "Austrilia":[
+        {
+            "professional": "暂无",
+            "direction": " ",
+            "university": [
+                "暂无"
+            ],
+            "standards": [
+                "暂无"
+            ],
+            "project":[
+                "<a href='http://chat.looyuoms.com/chat/chat/p.do?c=20002134&f=10071643&g=10068659&site=15890&refer=biaoji&loc=biaoji' target='_blank'>点击了解</a>"
+            ]
+
+        }
+    ],
+    "Europe":[
+        {
+            "professional": "艺术，音乐与表演",
+            "direction": " Art music & performance",
+            "university": [
+                "意大利博洛尼亚大学，罗马三大"
+            ],
+            "standards": [
+                "1. 高考文化课300分以上，高中毕业；<br>2. 意大利语A2水平，计划生"
+            ],
+            "project":[
+                "<a href='http://chat.looyuoms.com/chat/chat/p.do?c=20002134&f=10071643&g=10068659&site=15890&refer=biaoji&loc=biaoji' target='_blank'>点击了解</a>"
+            ]
+
+        }
+    ],
+    "Asia":[
+        {
+            "professional": "戏剧<br>电影",
+            "direction": "Dramas and Movies",
+            "university": [
+                "韩国：韩国庆熙大学，韩国中央大学，韩国建国大学等"
+            ],
+            "standards": [
+                "1.国内高三在读（完成高二学业水平测试）或高中毕业（或同等学历：中专，职高，技校），具有高中毕业证，高中艺术特长；2.韩语TOPIK三级（可在韩国语学堂完成韩语学习）；3.表演艺术学部 : 一定量的对词及指定表演。    "
+            ],
+            "project":[
+                "<a href='http://chat.looyuoms.com/chat/chat/p.do?c=20002134&f=10071643&g=10068659&site=15890&refer=biaoji&loc=biaoji' target='_blank'>艺形者培训项目，境外升学辅导课程-点击了解</a>"
+            ]
+
+        }
+    ]
+
+
+
+
+} }
+
+
+
+]

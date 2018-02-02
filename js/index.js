@@ -35,6 +35,12 @@ window.onload = function () {
                 }
                 // 当国家项被点击时
                 $('body').on('click','.countries>li',function(){
+                    console.log($(this));
+                    
+                        $(this).siblings().removeClass("selected");
+                        $(this).addClass("selected")
+                   
+                    
                     $('.articles').html("");
                     console.log("天天向上");
                     // var countryIndex=$(this).index();

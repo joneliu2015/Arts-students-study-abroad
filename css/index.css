@@ -123,16 +123,19 @@ li {
     margin-left: 24px;
 }
 
-li:hover {
+/* li:hover {
     color: #fff;
     background-color: rgb(180, 199, 241);
-}
+} */
 
-li:active {
+/* li:active {
     background-color: #3477ff;
     color: #fff
+} */
+.selected{
+    color:#ccc;
+    background-color:#3477ff;
 }
-
 .center {
     border-top: 1px solid #e5e5e5;
     background-color: #f8f8f8;
@@ -319,7 +322,7 @@ table {
     width: 930px;
     height: 218px;
     border-spacing: 30px 12px !important;
-    overflow: hidden
+    /* overflow: hidden */
 }
 table::-webkit-scrollbar {display:none}
 table,
