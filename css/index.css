@@ -19,7 +19,7 @@ a:link {
 }
 
 body {
-    font-family: Microsoft Yahei !important;
+    font-family: Helvetica,“Microsoft YaHei”, “微软雅黑”!important;
 }
 
 header {
@@ -60,6 +60,7 @@ li {
     margin-top: 30px;
     margin-bottom: 30px;
     position: relative;
+    cursor: pointer;
     /* -webkit-mask : -webkit-gradient(linear, left top, right bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,1))); */
 }
 
@@ -92,9 +93,20 @@ li {
     border-radius: 3%;
     width: 100%;
     height: 100%;
+    /* transition: all .5s; */
     background: rgba(0, 0, 0, .5);
-}
 
+}
+.deng{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 3%;
+    width: 100%;
+    height: 100%;
+    background:url("../img/deng1.png") no-repeat;
+    display: none;
+}
 .countries {
     display: block;
     text-align: center;
@@ -297,7 +309,8 @@ aside {
     background: -moz-linear-gradient( #ff2155, #ffacad);
     background: -webkit-linear-gradient(#ff2155, #ffacad);
     background: -o-linear-gradient( #ff2155, #ffacad);
-    overflow: hidden
+    overflow: hidden;
+    position: relative;
 }
 .articles article:nth-child(2n)>aside{
     background: linear-gradient(#405ace,#aeb7e3);
@@ -317,18 +330,24 @@ aside {
 aside .professional {
     font-weight:900;
     font-size: 24px;
-    font-family: Helvetica,“Microsoft YaHei”, “微软雅黑”;
     color: #fff;
     margin-left: 24px;
     margin-right: 24px;
     margin-top: 24px;
 }
-
+aside .line{
+    font-weight:600;
+    font-size: 20px;
+    color: #fff;
+    margin-left: 26px;
+}
 aside .direction {
     /* text-align: center; */
+    position: absolute;
+    bottom: 20px;
+    left:24px;
     vertical-align: 20%;
-    margin-top: 70px;
-    margin-left: 24px;
+
     color: #fff
 }
 
@@ -339,7 +358,7 @@ table {
     width: 930px;
     height: 218px;
     border-spacing: 30px 12px !important;
-    /* overflow: hidden */
+    /* overflow: visible */
 }
 table::-webkit-scrollbar {display:none}
 table,
@@ -382,7 +401,7 @@ tbody>tr>td:nth-child(2)
     height: 54px;
 }
 .university{
-    font: bold 24px "Microsoft Yahei";
+    font: bold 20px "Microsoft Yahei";
 }
 tbody>.xiangmu:not(:first-child) {
     /* display: inline-block; */
