@@ -108,7 +108,7 @@ li {
     line-height: 37px;
     /* margin: 12px 0 12px 0; */
     text-align: center;
-    color: #222222;
+    /* color: #222222; */
     transition: 0.3s;
     cursor: pointer;
     -moz-user-select: none;
@@ -133,7 +133,7 @@ li {
     color: #fff
 } */
 .selected{
-    color:#ccc;
+    color:#fff;
     background-color:#3477ff;
 }
 .center {
@@ -292,18 +292,35 @@ aside {
     height: 216px;
     border-radius: 2px;
     margin-right: 18px;
-    background: linear-gradient(#ff2155);
+    background: linear-gradient(#ff2155,#ffacad);
     /* 一些不支持背景渐变的浏览器 */
     background: -moz-linear-gradient( #ff2155, #ffacad);
     background: -webkit-linear-gradient(#ff2155, #ffacad);
     background: -o-linear-gradient( #ff2155, #ffacad);
     overflow: hidden
 }
+.articles article:nth-child(2n)>aside{
+    background: linear-gradient(#405ace,#aeb7e3);
+}
+.articles article:nth-child(3n)>aside{
+    background: linear-gradient(#028ce3,#93c8ea);
+}
+.articles article:nth-child(4n)>aside{
+    background: linear-gradient(#14bf4d,#7feaa3);
+}
+
+
+
+
+
 
 aside .professional {
-    font: bold 24px Microsoft Yahei;
+    font-weight:900;
+    font-size: 24px;
+    font-family: Helvetica,“Microsoft YaHei”, “微软雅黑”;
     color: #fff;
     margin-left: 24px;
+    margin-right: 24px;
     margin-top: 24px;
 }
 
