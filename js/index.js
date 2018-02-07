@@ -15,21 +15,13 @@ window.onload = function () {
             console.log(data);
             for(var key in datas){};
             // 专业分类点击事件
-            
             $('.majors>ul>li').hover(
                 function(e){
-                 
-                        $(this).children(".mask").css("background","rgba(0, 0, 0, .3)");
-                        $(this).siblings().children(".mask").css("background","rgba(0, 0, 0, .5)");
-                        
-                        
+                    $(this).children(".mask").css("background","rgba(0, 0, 0, .3)");
+                    $(this).siblings().children(".mask").css("background","rgba(0, 0, 0, .5)");        
                 },function(e){
-                    
-                        $(this).children(".mask").css("background","rgba(0, 0, 0, .5)");
-                        $(this).siblings().children(".mask").css("background","rgba(0, 0, 0, .5)");
-
-                    
-                    
+                    $(this).children(".mask").css("background","rgba(0, 0, 0, .5)");
+                    $(this).siblings().children(".mask").css("background","rgba(0, 0, 0, .5)");
             }
 
             );
@@ -40,10 +32,8 @@ window.onload = function () {
                 // 给当前项的兄弟元素加上阴影，给当前项去除阴影。
                 $(this).addClass('active');
                 $(this).siblings().removeClass('active');
-                $(this).find('.mask').slideUp();
-                $(this).children(".deng").show();
-                $(this).siblings().find('.mask').show();
-                $(this).siblings().children(".deng").hide()
+                $(this).find('.mask').css("background","rgba(0, 0, 0, 0)");
+                $(this).siblings().find('.mask').css("background","rgba(0, 0, 0, .5)");
                  //获取当前tab中鼠标停在的table栏的索引  
                 var majorIndex=$(this).index();
                 // 取出所有数据中当前专业类目数据
