@@ -18,30 +18,17 @@ window.onload = function () {
             
             $('.majors>ul>li').hover(
                 function(e){
-                    if($(this).hasClass('active')){
-                        $(this).children(".deng").show();
-                        $(this).siblings().children(".deng").hide()
-                    }else{
-                        $(this).children(".deng").fadeIn(300);
-                        // $(this).siblings().children(".deng").fadeOut(200);
+                 
                         $(this).children(".mask").css("background","rgba(0, 0, 0, .3)");
                         $(this).siblings().children(".mask").css("background","rgba(0, 0, 0, .5)");
-                        $(this).children(".deng").stop(true,true);
-                        $(this).siblings().children(".deng").stop(true,true);
-                    }
+                        
                         
                 },function(e){
-                    if($(this).hasClass('active')){
-                        $(this).children(".deng").show();
-                        $(this).siblings().children(".deng").hide();
-                    }else{
+                    
                         $(this).children(".mask").css("background","rgba(0, 0, 0, .5)");
                         $(this).siblings().children(".mask").css("background","rgba(0, 0, 0, .5)");
-                        $(this).children(".deng").fadeOut(200);
-                        // $(this).siblings().children(".deng").fadeOut(200);
-                        $(this).children(".deng").stop(true,true);
-                        $(this).siblings().children(".deng").stop(true,true);
-                    }
+
+                    
                     
             }
 
