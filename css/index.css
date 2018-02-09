@@ -14,7 +14,7 @@ html {
 a:hover,
 a:visited,
 a:active,
-a:link {
+a:link{
     text-decoration: none;
 
 }
@@ -168,6 +168,9 @@ li {
     color: #fff;
     background-color: #ff4393;
 }
+/* .xiangmu:not(:first-child){
+    color: #028ce3
+} */
 
 .toTop {
     display: block;
@@ -250,9 +253,9 @@ footer {
 .pccss a:hover,
 .pccss a:active,
 .pccss a:visited,
-.pccss a:link,
-{
-    color: #ccc !important;
+.pccss a:link{
+    color: #ccc ;
+    text-decoration: none;
 }
 .pccss .logo {
     margin-bottom: 2rem;
@@ -414,7 +417,7 @@ tbody>.xiangmu:not(:first-child) {
 tbody>.xiangmu :not(:first-child)>a{
     font: bold 16px "microsoft yahei";
     display: block;
-    
+    color: #028ce3
 }
 
 /* thead>.yuanxiao>td {
