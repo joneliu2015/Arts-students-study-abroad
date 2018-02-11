@@ -359,8 +359,8 @@ table {
     background-color: #fff !important;
     border-collapse: separate !important;
     width: 930px;
-    height: 218px;
-    border-spacing: 30px 12px !important;
+    /* height: 218px; */
+    border-spacing: 30px 13px !important;
     /* overflow: visible */
 }
 table::-webkit-scrollbar {display:none}

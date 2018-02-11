@@ -82,8 +82,16 @@ window.onload = function () {
                         $(".articles").append(result);
                     })
                    
+                    // 设置左侧色块的的高度和右侧表格的高度相等。
+                    var tHeight=$('table').height();
+                    console.log(tHeight);
+                    var aHeight=$('aside').height();
+                    console.log(aHeight);
+                    var aHeight=tHeight;
+                    console.log(tHeight);
+                    $('aside').css('height',aHeight);
+                
                     
-
                 })
             $('#Americia').trigger('click');       
                 
@@ -91,8 +99,13 @@ window.onload = function () {
             })
             $('.art').trigger('click');
 
+          
+          
+          
+                    
+              
 
-
+            
 
         }
     })
