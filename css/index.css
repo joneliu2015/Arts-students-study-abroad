@@ -14,13 +14,12 @@ html {
 a:hover,
 a:visited,
 a:active,
-a:link{
+a:link {
     text-decoration: none;
-
 }
 
 body {
-    font-family: Helvetica,“Microsoft YaHei”, “微软雅黑”!important;
+    font-family: Helvetica, “Microsoft YaHei”, “微软雅黑” !important;
 }
 
 header {
@@ -96,11 +95,12 @@ li {
     height: 100%;
     transition: all .5s;
     background: rgba(0, 0, 0, .5);
-
 }
-.mask:hover{
+
+.mask:hover {
     background: rgba(0, 0, 0, .3);
 }
+
 .countries {
     display: block;
     text-align: center;
@@ -138,10 +138,12 @@ li {
     background-color: #3477ff;
     color: #fff
 } */
-.selected{
-    color:#fff;
-    background-color:#3477ff;
+
+.selected {
+    color: #fff;
+    background-color: #3477ff;
 }
+
 .center {
     border-top: 1px solid #e5e5e5;
     background-color: #f8f8f8;
@@ -168,6 +170,7 @@ li {
     color: #fff;
     background-color: #ff4393;
 }
+
 /* .xiangmu:not(:first-child){
     color: #028ce3
 } */
@@ -250,13 +253,15 @@ footer {
 .pccss a {
     color: #ccc
 }
+
 .pccss a:hover,
 .pccss a:active,
 .pccss a:visited,
-.pccss a:link{
-    color: #ccc ;
+.pccss a:link {
+    color: #ccc;
     text-decoration: none;
 }
+
 .pccss .logo {
     margin-bottom: 2rem;
     width: 100%;
@@ -292,7 +297,6 @@ footer {
     padding-right: 0 !important;
 }
 
-
 /* @-moz-document url-prefix() {
     fieldset { display: table-cell; }
   } */
@@ -307,7 +311,7 @@ aside {
     height: 216px;
     border-radius: 2px;
     margin-right: 18px;
-    background: linear-gradient(#ff2155,#ffacad);
+    background: linear-gradient(#ff2155, #ffacad);
     /* 一些不支持背景渐变的浏览器 */
     background: -moz-linear-gradient( #ff2155, #ffacad);
     background: -webkit-linear-gradient(#ff2155, #ffacad);
@@ -315,42 +319,41 @@ aside {
     overflow: hidden;
     position: relative;
 }
-.articles article:nth-child(2n)>aside{
-    background: linear-gradient(#405ace,#aeb7e3);
-}
-.articles article:nth-child(3n)>aside{
-    background: linear-gradient(#028ce3,#93c8ea);
-}
-.articles article:nth-child(4n)>aside{
-    background: linear-gradient(#14bf4d,#7feaa3);
+
+.articles article:nth-child(2n)>aside {
+    background: linear-gradient(#405ace, #aeb7e3);
 }
 
+.articles article:nth-child(3n)>aside {
+    background: linear-gradient(#028ce3, #93c8ea);
+}
 
-
-
-
+.articles article:nth-child(4n)>aside {
+    background: linear-gradient(#14bf4d, #7feaa3);
+}
 
 aside .professional {
-    font-weight:900;
+    font-weight: 900;
     font-size: 24px;
     color: #fff;
     margin-left: 24px;
     margin-right: 24px;
     margin-top: 24px;
 }
-aside .line{
-    font-weight:600;
+
+aside .line {
+    font-weight: 600;
     font-size: 20px;
     color: #fff;
     margin-left: 26px;
 }
+
 aside .direction {
     /* text-align: center; */
     position: absolute;
     bottom: 20px;
-    left:24px;
+    left: 24px;
     vertical-align: 20%;
-
     color: #fff
 }
 
@@ -363,7 +366,11 @@ table {
     border-spacing: 30px 13px !important;
     /* overflow: visible */
 }
-table::-webkit-scrollbar {display:none}
+
+table::-webkit-scrollbar {
+    display: none
+}
+
 table,
 th,
 td {
@@ -382,12 +389,12 @@ tr>th {
     border-bottom: 1px solid #f3f3f3;
     font: bold 20px Microsoft Yahei;
 }
+
 /* .yuanxiao:first-child,
 .yaoqiu:first-child,
 .xiangmu:first-child,{
       border-spacing: 20px 12px !important;
 } */
-
 
 tbody>.yaoqiu>td+td {
     color: #7f7f7f;
@@ -399,22 +406,23 @@ thead>tr>td:nth-child(1) {
 }
 
 tbody>tr>td:nth-child(1),
-tbody>tr>td:nth-child(2)
- {
+tbody>tr>td:nth-child(2) {
     height: 54px;
 }
-.university{
+
+.university {
     font: bold 20px "Microsoft Yahei";
 }
+
 tbody>.xiangmu:not(:first-child) {
     /* display: inline-block; */
- 
     width: 100%;
     height: 54px;
-    padding:10px;
+    padding: 10px;
     vertical-align: middle
 }
-tbody>.xiangmu :not(:first-child)>a{
+
+tbody>.xiangmu :not(:first-child)>a {
     font: bold 16px "microsoft yahei";
     display: block;
     color: #028ce3

@@ -6,107 +6,99 @@ function openWin() {
 window.onload = function () {
     var data;
     $.ajax({
-        dataType:'json',
-        url:"data.json",
-        data:data,
-        type:"get",
-        success:function(data,key){
-            var datas=data;
+        dataType: 'json',
+        url: "data.json",
+        data: data,
+        type: "get",
+        success: function (data, key) {
+            var datas = data;
             console.log(data);
-            for(var key in datas){};
+            for (var key in datas) {};
             // 专业分类点击事件
             $('.majors>ul>li').hover(
-                function(e){
-                    $(this).children(".mask").css("background","rgba(0, 0, 0, .3)");
-                    $(this).siblings().children(".mask").css("background","rgba(0, 0, 0, .5)");        
-                },function(e){
-                    $(this).children(".mask").css("background","rgba(0, 0, 0, .5)");
-                    $(this).siblings().children(".mask").css("background","rgba(0, 0, 0, .5)");
-            }
+                function (e) {
+                    $(this).children(".mask").css("background", "rgba(0, 0, 0, .3)");
+                    $(this).siblings().children(".mask").css("background", "rgba(0, 0, 0, .5)");
+                },
+                function (e) {
+                    $(this).children(".mask").css("background", "rgba(0, 0, 0, .5)");
+                    $(this).siblings().children(".mask").css("background", "rgba(0, 0, 0, .5)");
+                }
 
             );
-            $('body').on("click",".majors>ul>li",function(e){
+            $('body').on("click", ".majors>ul>li", function (e) {
                 console.log("好好学习");
-                
+
                 console.log($(this).index());
                 // 给当前项的兄弟元素加上阴影，给当前项去除阴影。
                 $(this).addClass('active');
                 $(this).siblings().removeClass('active');
-                $(this).find('.mask').css("background","rgba(0, 0, 0, 0)");
-                $(this).siblings().find('.mask').css("background","rgba(0, 0, 0, .5)");
-                 //获取当前tab中鼠标停在的table栏的索引  
-                var majorIndex=$(this).index();
+                $(this).find('.mask').css("background", "rgba(0, 0, 0, 0)");
+                $(this).siblings().find('.mask').css("background", "rgba(0, 0, 0, .5)");
+                //获取当前tab中鼠标停在的table栏的索引  
+                var majorIndex = $(this).index();
                 // 取出所有数据中当前专业类目数据
-                var majorData=data[majorIndex];
+                var majorData = data[majorIndex];
                 console.log(majorData);
                 // 由于取出的是对象，所以遍历key，求出它的value,并赋值给新变量
-                for(var key in majorData){
+                for (var key in majorData) {
                     console.log(majorData[key]);
-                    var majorDataA=majorData[key]
+                    var majorDataA = majorData[key]
                 }
                 // 当国家项被点击时
-                $('body').on('click','.countries>li',function(){
+                $('body').on('click', '.countries>li', function () {
                     console.log($(this));
-                    
-                        $(this).siblings().removeClass("selected");
-                        $(this).addClass("selected")
-                   
-                    
+
+                    $(this).siblings().removeClass("selected");
+                    $(this).addClass("selected")
+
+
                     $('.articles').html("");
                     console.log("天天向上");
                     // var countryIndex=$(this).index();
                     // console.log(countryIndex);
                     // var countryData=majorData
                     // 由于json数据结构的原因，此处不能用数组的index绑定，所以用id绑定。
-                   var countryId=$(this).attr('id');
-                   console.log(countryId)
-                //    得到每个国家的数据
-                    var countryData=majorDataA[countryId];
+                    var countryId = $(this).attr('id');
+                    console.log(countryId)
+                    //    得到每个国家的数据
+                    var countryData = majorDataA[countryId];
                     console.log(countryData);
                     // 遍历当前国家项的数据
-                    $.each(countryData,function(index,item){
+                    $.each(countryData, function (index, item) {
                         console.log(countryData[index]);
                         console.log(countryData[index].professional);
                         // 为国家项数据设置一个新变量
-                        var countryDataIndex=countryData[index];
+                        var countryDataIndex = countryData[index];
                         console.log(countryDataIndex.professional);
                         // 将国家项数据转为对象
-                        var OBJ={
-                            items:countryDataIndex
+                        var OBJ = {
+                            items: countryDataIndex
                         };
                         console.log(OBJ);
                         // 将对象写入模板引擎并赋值给result变量
-                        var result=template("template",OBJ);
+                        var result = template("template", OBJ);
                         console.log(countryDataIndex.university);
-                   
+
                         $(".articles").append(result);
                     })
-                   
+
                     // 设置左侧色块的的高度和右侧表格的高度相等。
-                    var tHeight=$('table').height();
+                    var tHeight = $('table').height();
                     console.log(tHeight);
-                    var aHeight=$('aside').height();
+                    var aHeight = $('aside').height();
                     console.log(aHeight);
-                    var aHeight=tHeight;
+                    var aHeight = tHeight;
                     console.log(tHeight);
-                    $('aside').css('height',aHeight);
-                
-                    
+                    $('aside').css('height', aHeight);
+
+
                 })
-            $('#Americia').trigger('click');       
-                
-              
+                $('#Americia').trigger('click');
+
+
             })
             $('.art').trigger('click');
-
-          
-          
-          
-                    
-              
-
-            
-
         }
     })
 

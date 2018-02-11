@@ -13,6 +13,9 @@
     <title>艺考生留学指南</title>
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./lib/bootstrap-3.3.7-dist/css/bootstrap.css">
+    <link href="favicon.ico" mce_href="favicon.ico" rel="bookmark" type="image/x-icon" />
+    <link href="favicon.ico" mce_href="favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="favicon.ico" mce_href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <!--集团统计开始-->
     <!--neworiental全站异步 google分析开始-->
     <script>
@@ -40,7 +43,9 @@
 <body>
     <header class="content ">
         <div class="container top">
-           <a href="http://liuxue.xdf.cn/xian/" target="_blank"><img class="logo" src="./img/logo.png" alt="陕西新东方前途出国"></a> 
+            <a href="http://liuxue.xdf.cn/xian/" target="_blank">
+                <img class="logo" src="./img/logo.png" alt="陕西新东方前途出国">
+            </a>
             <span class="copyright">
                 <span class="glyphicon glyphicon-copyright-mark"></span>
                 <span>&nbsp;陕西新东方前途出国</span>
@@ -57,7 +62,7 @@
                     <p>Art</p>
                 </span>
                 <div class="mask"></div>
-                <!-- <div class="deng"></div> -->
+
             </li>
             <li class="broadcaster">
                 <img src="./img/broadcaster.png" alt="播音编导类">
@@ -66,7 +71,7 @@
                     <p>Broadcaster</p>
                 </span>
                 <div class="mask"></div>
-                <!-- <div class="deng"></div> -->
+
             </li>
             <li class="music">
                 <img src="./img/music.png" alt="音乐类">
@@ -75,7 +80,7 @@
                     <p>Music</p>
                 </span>
                 <div class="mask"></div>
-                <!-- <div class="deng"></div> -->
+
             </li>
             <li class="dance">
                 <img src="./img/dance.png" alt="舞蹈类">
@@ -84,7 +89,7 @@
                     <p>Dancet</p>
                 </span>
                 <div class="mask"></div>
-                <!-- <div class="deng"></div> -->
+
             </li>
             <li class="performance" style="margin-right: 0;">
                 <img src="./img/performance.png" alt="表演类">
@@ -93,7 +98,7 @@
                     <p>Performance</p>
                 </span>
                 <div class="mask"></div>
-                <!-- <div class="deng"></div> -->
+
             </li>
         </ul>
     </nav>
@@ -113,41 +118,44 @@
         </section>
         <script id="template" type="text/html">
             <article class="container">
-                    <aside class="professional-direction">
-                        <div class="professional">{{@ items.professional}}</div>
-                        <div class="line">—</div>
-                        <div class="direction">{{@ items.direction}}</div>
-                    </aside>
-        
-                    <table class="table-responsive table-borded">
-                        <thead>
-                            <tr class='yuanxiao'>
-                                <td>院校<br>推荐</td>
-                                {{each items.university as value index}}
-                                    <td class="university">{{@ items.university[index]}}</td>
-                                {{/each}}
-                                   
-        
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr class='yaoqiu'>
-                                <td>录取<br>要求</td>
-                                {{each items.standards as velue index}}
-                                    <td class="standards">{{@ items.standards[index]}}</td>
-                                {{/each}}  
-                                
-                            </tr>
-                            <tr class='xiangmu'>
-                                <td>推荐<br>项目</td>
-                                {{each items.project as velue index}}
-                                    <td class="standards">{{@ items.project[index]}}</td>
-                                {{/each}}  
-                            </tr>
-                        </tbody>
-        
-                    </table>
-                </article>
+                <aside class="professional-direction">
+                    <div class="professional">{{@ items.professional}}</div>
+                    <div class="line">—</div>
+                    <div class="direction">{{@ items.direction}}</div>
+                </aside>
+
+                <table class="table-responsive table-borded">
+                    <thead>
+                        <tr class='yuanxiao'>
+                            <td>院校
+                                <br>推荐</td>
+                            {{each items.university as value index}}
+                            <td class="university">{{@ items.university[index]}}</td>
+                            {{/each}}
+
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class='yaoqiu'>
+                            <td>录取
+                                <br>要求</td>
+                            {{each items.standards as velue index}}
+                            <td class="standards">{{@ items.standards[index]}}</td>
+                            {{/each}}
+
+                        </tr>
+                        <tr class='xiangmu'>
+                            <td>推荐
+                                <br>项目</td>
+                            {{each items.project as velue index}}
+                            <td class="standards">{{@ items.project[index]}}</td>
+                            {{/each}}
+                        </tr>
+                    </tbody>
+
+                </table>
+            </article>
         </script>
 
     </section>
